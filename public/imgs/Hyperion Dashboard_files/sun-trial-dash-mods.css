@@ -1,0 +1,66 @@
+/* These are SUN specific overrides for the trial dash */
+
+a.logo>img {
+  /*filter: invert(67%) sepia(9%) saturate(5913%) hue-rotate(171deg) brightness(90%) contrast(92%);*/
+  width: auto !important;
+  padding-left: 0px !important;
+}
+
+header.header.black-bg.text-center {
+  background: #fff !important;
+}
+.topbar-icon>span {
+    color: #61223B !important;
+}
+#side-bar-settings-menu-v4 {
+  background-color: #fff !important;
+}
+#side-bar-settings-menu-v4 .side-bar-settings-item .side-bar-settings-item-link{
+  color: #61223B;
+}
+
+#side-bar-settings-menu-v4 .side-bar-settings-item:hover, 
+#side-bar-settings-menu-v4 .side-bar-settings-item:hover a p {
+  background: #B79962;
+}
+
+div#side-bar-settings-menu-container-v4 {
+  background: #fff !important;
+}
+
+div#side-bar-settings-menu-container-v4>span {
+  color: #61223B !important;
+}
+
+.btn-hyperion--primary {
+  background: #B79962;
+}
+
+.btn-hyperion--default:hover, .btn-hyperion--default:focus {
+  background: #B79962;
+}
+
+.topbar-icon {
+  padding-left: 80px;
+}
+
+#block_top_bar_container {
+  font-family: 'Raleway', sans-serif !important;
+}
+
+#block_top_bar_container a, 
+#block_top_bar_container a>span {
+    color: #61223B !important;
+    font-family: 'Raleway', sans-serif !important;
+}
+
+a.icon-current-incomplete-task, 
+a.icon-current-complete-task, 
+a.icon-current-incomplete-task:hover, 
+a.icon-current-complete-task:hover {
+  background: #B79962;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+  background: #B79962;
+}

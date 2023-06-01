@@ -1,0 +1,8 @@
+(function (Adform) {
+  var Tracking = Adform.Tracking;
+  if (Tracking.appendFirstPartyId) {
+    Tracking.appendFirstPartyId("https://a1.adform.net/Serving/TrackPoint/?CC=1&pm=2774095&ADFdivider=%7C&ord=31504482283&ADFtpmode=2&loc=https%3A%2F%2Fwww.hyperiondev.com%2Fportal%2Fsun-intro-to-programming%2F2932%2Fwhy_learn_how_to_code__intro_to_programming&CPref=https%3A%2F%2Fwww.hyperiondev.com%2Fportal%2Fsun-intro-to-programming%2F2945%2Fcoding_where_to_begin__intro_to_programming&Set1=en-US%7Cen-US%7C1366x768%7C24", "7125730790313327628");
+  } else {
+    Tracking.LoadScript("https://a1.adform.net/Serving/TrackPoint/?CC=1&pm=2774095&ADFdivider=%7C&ord=31504482283&ADFtpmode=2&loc=https%3A%2F%2Fwww.hyperiondev.com%2Fportal%2Fsun-intro-to-programming%2F2932%2Fwhy_learn_how_to_code__intro_to_programming&CPref=https%3A%2F%2Fwww.hyperiondev.com%2Fportal%2Fsun-intro-to-programming%2F2945%2Fcoding_where_to_begin__intro_to_programming&Set1=en-US%7Cen-US%7C1366x768%7C24" + "&frpid=0");
+  }
+})(window.Adform);

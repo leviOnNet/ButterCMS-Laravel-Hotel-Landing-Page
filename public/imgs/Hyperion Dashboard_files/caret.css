@@ -1,0 +1,69 @@
+.caret {
+  position: relative;
+  width: 0px;
+  height: 0px;
+  margin-top: 0px;
+  border-style: solid;
+  border-width: 7px;
+  border-color: transparent;
+}
+
+.caret.left {
+  border-right-width: 8px;
+  border-right-color: #ee572a;
+  border-left-width: 16px;
+  float: left;
+}
+
+.caret.right {
+  border-left-width: 8px;
+  border-right-width: 16px;
+  float: right;
+}
+
+.caret.right.orange {
+  border-left-color: #ee572a;
+}
+
+.caret.left.gray {
+  border-right-color: gray;
+}
+
+.compound-caret{
+  position: relative;
+  display: inline-block;
+  top: -15px;
+  left: -5px;
+}
+.compound-caret .caret.left{ 
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border-left-width: 7px;
+}
+.compound-caret .caret.right{ 
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border-right-width: 7px;
+}
+.compound-caret i:last-of-type
+{
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 4px;
+  border-width: 3px 4px 3px 3px;
+  border-style: solid;
+  border-color: transparent rgb(242, 242, 242) transparent transparent;
+  left: 10px;
+}
+a.icon-task.active .compound-caret i:last-of-type,a.icon-task:hover .compound-caret i:last-of-type
+{
+
+  border-color: transparent #ee572a transparent transparent;
+}
+
+a.icon-task.active .compound-caret .caret.left,a.icon-task:hover .compound-caret .caret.left{
+  border-right-color:  rgb(242, 242, 242);
+}
